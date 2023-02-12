@@ -1,6 +1,11 @@
 import java.util.*;
 import java.io.*;
 
+/**
+* 전광판(21년 재직자 대회 예선)
+* level 2
+* */
+
 public class electronicDisplay {
     private static Map<Integer, int[]> map;
 

@@ -1,6 +1,11 @@
 import java.util.*;
 import java.io.*;
 
+/**
+* 회의실 예약(21년 재직자 대회 예선)
+* level 2
+* */
+
 public class roomReservation {
     public static void main(String[] args) throws IOException {
         StringBuilder sb = new StringBuilder();

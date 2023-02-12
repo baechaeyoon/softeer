@@ -3,6 +3,11 @@ import java.io.*;
 import java.text.SimpleDateFormat;
 import java.text.ParseException;
 
+/**
+ * 근무 시간
+ * level 1
+ */
+
 public class workingHours {
     public static void main(String args[])
     {

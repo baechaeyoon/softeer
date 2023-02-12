@@ -1,6 +1,10 @@
 import java.util.*;
 import java.io.*;
 
+/**
+* 금고털이
+* level 2
+* */
 public class safecracker {
     public static void main(String args[]) throws IOException
     {

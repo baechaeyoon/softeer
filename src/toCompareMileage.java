@@ -13,6 +13,7 @@ public class toCompareMileage {
         int b = sc.nextInt();
 
         String result = a == b ? "same" : a > b ? "A" : "B";
+
         System.out.println(result);
     }
 }

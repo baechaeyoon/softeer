@@ -8,9 +8,9 @@ import java.io.*;
 
 public class roomReservation {
     public static void main(String[] args) throws IOException {
+
         StringBuilder sb = new StringBuilder();
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
         StringTokenizer tokenizer = new StringTokenizer(reader.readLine());
 
         int N = Integer.parseInt(tokenizer.nextToken());    // 회의실 수

@@ -12,7 +12,6 @@ public class electronicDisplay {
     public static void main(String args[]) throws IOException
     {
         StringBuilder sb = new StringBuilder();
-
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
         int T = Integer.parseInt(bf.readLine());
@@ -85,7 +84,6 @@ public class electronicDisplay {
                 cnt++;
             }
         }
-
         return cnt;
     }
 

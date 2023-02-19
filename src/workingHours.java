@@ -16,7 +16,6 @@ public class workingHours {
             int answer = 0;
 
             Scanner sc = new Scanner(System.in);
-
             SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
 
             for(int i =0; i<5; i++){
@@ -36,6 +35,7 @@ public class workingHours {
 
                 answer += diffMin;
             }
+
             System.out.println(answer);
         }
         catch(ParseException e){

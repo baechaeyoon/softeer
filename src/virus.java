@@ -22,9 +22,11 @@ public class virus {
         int N = Integer.parseInt(st.nextToken());
 
         long answer = K;
+
         for(int i =1; i<= N; i++){
             answer = (answer * P)%1000000007;
         }
+
         System.out.println(answer);
     }
 }

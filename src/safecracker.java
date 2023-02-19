@@ -11,6 +11,7 @@ public class safecracker {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+
         int total = Integer.parseInt(st.nextToken());
         int N = Integer.parseInt(st.nextToken());
 

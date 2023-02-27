@@ -43,13 +43,15 @@ public class electronicDisplay {
             for(int i =0; i<5; i++){
                 arrA[i] = A % 10;
                 A /= 10;
-                if(A == 0) break;
+                if(A == 0)
+                    break;
             }
 
             for(int i =0; i<5; i++){
                 arrB[i] = B % 10;
                 B /= 10;
-                if(B == 0) break;
+                if(B == 0)
+                    break;
             }
 
             int res =0;

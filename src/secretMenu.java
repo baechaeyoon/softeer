@@ -33,6 +33,7 @@ public class secretMenu {
                 }
 
                 if(N < M) System.out.println("normal");
+
                 else{
                     if(nlist.toString().contains(mlist.toString())) System.out.println("secret");
                     else System.out.println("normal");

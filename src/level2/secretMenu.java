@@ -1,12 +1,11 @@
 package level2;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /**
- * 비밀메뉴
+ * 비밀메뉴(21년 재직자 대회 예선)
  * level 2
  * */
 

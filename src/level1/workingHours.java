@@ -14,7 +14,6 @@ public class workingHours {
     public static void main(String args[])
     {
         try{
-
             int answer = 0;
 
             Scanner sc = new Scanner(System.in);
